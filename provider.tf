@@ -5,10 +5,10 @@ provider "aws" {
 
 
 # Terraform S3 backend
-terraform {
-  backend "s3" {
-    bucket = "terraformmanikantabucket"
-    key    = "dev/terraform/terraform.tfstate"
-    region = "ap-south-1"
-  }
-}
+#terraform {
+#  backend "s3" {
+#    bucket = "terraformmanikantabucket"
+#    key    = "dev/terraform/terraform.tfstate"
+#    region = "ap-south-1"
+#  }
+#}
